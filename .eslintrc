@@ -34,7 +34,6 @@
     "@typescript-eslint/no-duplicate-type-constituents": 2,
     "@typescript-eslint/no-explicit-any": 1,
     "@typescript-eslint/no-mixed-enums": 2,
-    "@typescript-eslint/no-unnecessary-condition": 1,
     "@typescript-eslint/no-useless-empty-export": 1,
     "@typescript-eslint/no-var-requires": 2,
     "require-await": "off",
@@ -42,5 +41,13 @@
   },
   "settings": {
     "version": "detect"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.jsx", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": ["off"]
+      }
+    }
+  ]
 }
