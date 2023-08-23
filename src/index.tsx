@@ -1,6 +1,8 @@
-import { render } from 'react-dom'
-import Test from './Test'
+import ReactDOM from 'react-dom/client';
+import Test from './Test';
 
-import './index.css'
+import './index.css';
 
-render(<Test />, document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'));
+const b = 'yes';
+root.render(<Test />);

@@ -10,9 +10,20 @@ export const buildLoaders = (options: BuildOptions): RuleSetRule[] => {
     exclude: /node_modules/,
   }
 
-  const fileLoader = {
-    test: /\.(svg|png|jpe?g|gif)$/i,
-    use: 'file-loader',
+  const imgLoader = {
+    test: /\.(png|jpe?g|gif|svg|webp|ico|mp3)$/i,
+    type: 'asset/resource',
+    generator: {
+      filename: 'assets/img/[name][ext]',
+    },
+  }
+
+  const fontLoader = {
+    test: /\.(woff2?|eot|ttf|otf)$/i,
+    type: 'asset/resource',
+    generator: {
+      filename: 'assets/font/[name][ext]',
+    },
   }
 
   const cssLoader = {
@@ -24,5 +35,5 @@ export const buildLoaders = (options: BuildOptions): RuleSetRule[] => {
     ],
   }
 
-  return [typescriptLoader, fileLoader, cssLoader]
+  return [imgLoader, fontLoader, cssLoader, typescriptLoader]
 }
