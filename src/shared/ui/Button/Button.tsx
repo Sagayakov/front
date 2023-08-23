@@ -8,7 +8,7 @@ interface ButtonProps extends ComponentProps<'button'> {
 export const Button = ({ className, ...otherProps }: ButtonProps) => {
   return (
     <button className={twMerge('text-red-500', className)} {...otherProps}>
-      Button
+      button
     </button>
   );
 };
