@@ -1,3 +1,21 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+:root{
+    --main-blue: #1F6FDE;
+    --main-black: #1C1C1E;
+    --main-green: #02C66E;
+    --white: #FFFFFF;
+    --error: #FF3F25;
+    --main-background: #F9F9F9;
+    --grey-1: #DCDCDC;
+    --grey-2: #BCBCBC;
+    --grey-3: #8F8F8F;
+}
