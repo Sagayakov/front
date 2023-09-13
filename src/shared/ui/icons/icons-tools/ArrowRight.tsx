@@ -1,4 +1,8 @@
-export const ArrowRight = () => {
+interface Props {
+  color: string
+}
+
+export const ArrowRight = ({color}: Props) => {
   return (
     <svg
       width="24"
@@ -8,7 +12,7 @@ export const ArrowRight = () => {
       xmlns="http://www.w3.org/2000/svg">
       <path
         d="M9 7L13.278 11.1069C13.6767 11.4896 13.6893 12.1231 13.3063 12.5214L9 17"
-        stroke="#1C1C1E"
+        stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
       />

@@ -1,3 +1,4 @@
+import { CategoryBlock } from 'entities/CategoryBlock/CategoryBlock';
 import { Controls } from './Features/Controls/Controls';
 import { Header } from './Features/Header/Header';
 import './styles/index.css';
@@ -7,6 +8,7 @@ export const App = () => {
     <>
       <Header />
       <Controls />
+      <CategoryBlock />
     </>
   );
 };
