@@ -17,7 +17,7 @@ import { CategoryListStyle } from './CategoryList.style';
 export const CategoryList = () => {
   return (
     <CategoryListStyle>
-      <CategoryCartStyle gridName="property" width={'295px'}>
+      <CategoryCartStyle gridarea="property" width={'295px'}>
         <Realty />
         <CategoryName>Аренда недвижимости</CategoryName>
         <QuantityOfCategories>
@@ -25,7 +25,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="transport" width={'295px'}>
+      <CategoryCartStyle gridarea="transport" width={'295px'}>
         <Transport />
         <CategoryName>Аренда транспорта</CategoryName>
         <QuantityOfCategories>
@@ -33,7 +33,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="food" width={'190px'}>
+      <CategoryCartStyle gridarea="food" width={'190px'}>
         <Food />
         <CategoryName>Домашняя еда</CategoryName>
         <QuantityOfCategories>
@@ -41,7 +41,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="doc" width={'190px'}>
+      <CategoryCartStyle gridarea="doc" width={'190px'}>
         <Docs />
         <CategoryName>Документы</CategoryName>
         <QuantityOfCategories>
@@ -49,7 +49,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="currency" width={'190px'}>
+      <CategoryCartStyle gridarea="currency" width={'190px'}>
         <Currency />
         <CategoryName>Валютные пары</CategoryName>
         <QuantityOfCategories>
@@ -57,7 +57,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="excursions" width={'190px'}>
+      <CategoryCartStyle gridarea="excursions" width={'190px'}>
         <Excursion />
         <CategoryName>Экскурсии</CategoryName>
         <QuantityOfCategories>
@@ -65,7 +65,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="job" width={'190px'}>
+      <CategoryCartStyle gridarea="job" width={'190px'}>
         <Job />
         <CategoryName>Работа</CategoryName>
         <QuantityOfCategories>
@@ -73,7 +73,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="taxi" width={'190px'}>
+      <CategoryCartStyle gridarea="taxi" width={'190px'}>
         <Taxi />
         <CategoryName>Такси</CategoryName>
         <QuantityOfCategories>
@@ -81,7 +81,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="buy" width={'295px'}>
+      <CategoryCartStyle gridarea="buy" width={'295px'}>
         <BuySell />
         <CategoryName>Покупка/продажа</CategoryName>
         <QuantityOfCategories>
@@ -89,7 +89,7 @@ export const CategoryList = () => {
           <ArrowRight color="#1F6FDE"/>
         </QuantityOfCategories>
       </CategoryCartStyle>
-      <CategoryCartStyle gridName="service" width={'295px'}>
+      <CategoryCartStyle gridarea="service" width={'295px'}>
         <Service />
         <CategoryName>Услуги</CategoryName>
         <QuantityOfCategories>
