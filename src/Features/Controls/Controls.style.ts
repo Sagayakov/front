@@ -7,4 +7,5 @@ export const ControlsStyle = styled.div`
     justify-content: space-between;
     margin-top: 80px;
     padding: 0 100px;
+    /* position: relative; */
 `

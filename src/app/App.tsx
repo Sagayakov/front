@@ -5,6 +5,8 @@ import { Controls } from '../Features/Controls/Controls';
 import { Header } from '../Features/Header/Header';
 import './styles/index.css';
 import { PopularAdverts } from 'Features/PopularAdverts/PopularAdverts';
+import { PaginationBlock } from 'entities/PaginationBlock/PaginationBlock';
+import { Footer } from 'Features/Footer/Footer';
 
 export const App = () => {
   const [activeModalEnter, setActiveModalEnter] = useState(true);
@@ -18,6 +20,8 @@ export const App = () => {
       <Controls />
       <CategoryBlock />
       <PopularAdverts />
+      <PaginationBlock />
+      <Footer />
     </>
   );
 };
