@@ -6,7 +6,7 @@ import { LangSwitcherAndEnterRegistration } from 'entities/langSwitcherAndEnter/
 export const Header = () => {
   return (
     <HeaderStyle>
-      <LogoHeader />
+      <LogoHeader style={{cursor: 'pointer'}} />
       <ButtonAddAdvert />
       <LangSwitcherAndEnterRegistration />
     </HeaderStyle>

@@ -1,6 +1,14 @@
-export const LogoHeader = () => {
+interface Props {
+  style?: Style;
+}
+interface Style {
+  cursor: string;
+}
+
+export const LogoHeader = ({style}: Props) => {
   return (
     <svg
+    style={style}
       width="134"
       height="40"
       viewBox="0 0 134 40"

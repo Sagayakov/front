@@ -6,5 +6,6 @@ export const PopularAdvertsCartStyle = styled.div`
     border-radius: 8px;
     background-color: var(--main-background);
     overflow: hidden;
-
+    cursor: pointer;
+    
 `
