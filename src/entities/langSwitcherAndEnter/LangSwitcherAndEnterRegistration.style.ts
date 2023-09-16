@@ -5,4 +5,5 @@ export const LangSwitcherAndEnterRegistrationStyle = styled.div`
     height: 44px;
     display: flex;
     align-items: center;
+    position: relative;
 `
