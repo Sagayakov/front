@@ -1,6 +1,12 @@
-export const Close = () => {
+interface Props {
+  onclick?: () => void;
+}
+
+export const Close = ({ onclick }: Props) => {
   return (
     <svg
+      style={{ cursor: 'pointer' }}
+      onClick={onclick}
       width="18"
       height="18"
       viewBox="0 0 18 18"
